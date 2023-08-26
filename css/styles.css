@@ -86,6 +86,7 @@ img {
 
 header .container,
 .nav,
+.list-menu,
 .list {
   display: flex;
   flex-direction: row;
