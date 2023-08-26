@@ -14,7 +14,11 @@ body {
   color: var(--text);
   background-color: var(--white);
   color: #434455;
-  background-color: #FFFFFF
+  background-color: #FFFFFF;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.02em;
 }
 
 h1,
@@ -74,6 +78,14 @@ ul {
   flex-direction: column;
   margin-left: auto;
   margin-right: auto;
+}
+
+header .container,
+.nav,
+.nav-menu,
+.address-list {
+  display: flex;
+  flex-direction: row;
 }
 
 /* headers 1 2 3 */
@@ -260,5 +272,5 @@ ul {
   color: var(--cloud);
   line-height: 1.5;
   color: var(--light);
-  letter-spacing: 0.02em
+  letter-spacing: 0.02em;
 }
