@@ -50,6 +50,10 @@ ul {
   padding-left: 0;
 }
 
+img {
+  display: block;
+}
+
 .container {
   max-width: 1158px;
   padding-left: 15px;
@@ -82,10 +86,15 @@ ul {
 
 header .container,
 .nav,
-.nav-menu,
-.address-list {
+.list {
   display: flex;
   flex-direction: row;
+}
+
+.header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid var(--cornflower);
 }
 
 /* headers 1 2 3 */
