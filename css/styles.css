@@ -283,3 +283,10 @@ header .container,
   color: var(--light);
   letter-spacing: 0.02em;
 }
+
+a {
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.04em;
+  text-decoration: none;
+}
