@@ -84,6 +84,10 @@ img {
   margin-right: auto;
 }
 
+.list-menu {
+  gap: 40px;
+}
+
 header .container,
 .nav,
 .list-menu,
