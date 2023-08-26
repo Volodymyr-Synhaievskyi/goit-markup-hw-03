@@ -41,6 +41,11 @@ h3 {
   font-size: 20px;
 }
 
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
 .container {
   max-width: 1158px;
   padding-left: 15px;
@@ -60,6 +65,15 @@ h3 {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+.hero .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* headers 1 2 3 */
