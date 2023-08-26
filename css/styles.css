@@ -84,7 +84,7 @@ img {
   margin-right: auto;
 }
 
-.header .container,
+header .container,
 .nav,
 .list {
   display: flex;
