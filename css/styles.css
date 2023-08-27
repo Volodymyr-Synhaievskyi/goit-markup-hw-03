@@ -374,3 +374,7 @@ a {
   display: flex;
   gap: 40px;
 }
+
+.our-work-item {
+  width: calc((100% - 48px) / 3);
+}
