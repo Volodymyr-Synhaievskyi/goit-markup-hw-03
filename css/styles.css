@@ -135,7 +135,7 @@ header .container,
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  margin-bottom: 8px;
+  margin-bottom: 72px;
 }
 
 .head-two-portfolio {
@@ -155,7 +155,6 @@ header .container,
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  width: calc((100% - 72px) / 4);
 }
 
 /* lists */
