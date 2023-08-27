@@ -86,7 +86,7 @@ img {
 
 .list-menu {
   gap: 40px;
-  padding: 24px 0;
+
 }
 
 header .container,
@@ -298,4 +298,5 @@ a {
   line-height: 1.33;
   letter-spacing: 0.04em;
   text-decoration: none;
+  padding: 24px 0;
 }
