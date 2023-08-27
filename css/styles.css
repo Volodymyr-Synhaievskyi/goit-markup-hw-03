@@ -1,4 +1,3 @@
-/* CSS Variables */
 :root {
   --primary-font: "Roboto", sans-serif;
   --title-font: "Raleway", sans-serif;
@@ -12,7 +11,7 @@
   --corp-color-hover: #404bbf;
 }
 
-/* Reset */
+/* body */
 body {
   font-family: var(--primary-font);
   font-size: 16px;
@@ -130,7 +129,7 @@ ol {
   background-color: var(--corp-color-hover);
 }
 
-/* style for header */
+/* style-header */
 
 .header {
   background-color: var(--primary-light-color);
@@ -191,7 +190,7 @@ ol {
   color: var(--corp-color-hover);
 }
 
-/* style for foter */
+/* style-foter */
 .footer {
   background-color: var(--second-primary-color);
   color: var(--second-light-color);
@@ -267,7 +266,7 @@ ol {
   gap: 24px;
 }
 
-/* section contacts */
+/* contacts */
 .contacts {
   background-color: var(--second-light-color);
   padding: 120px 0;
