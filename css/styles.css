@@ -337,3 +337,7 @@ a {
 .item {
   width: calc((100% - 72px) / 4);
 }
+
+.header-item:not(:last-child) {
+  margin-right: 40px;
+}
