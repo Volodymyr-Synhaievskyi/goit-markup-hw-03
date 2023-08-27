@@ -340,3 +340,8 @@ a {
 .header-item:not(:last-child) {
   margin-right: 40px;
 }
+
+.portfolio {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
