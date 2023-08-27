@@ -103,8 +103,7 @@ header .container,
 .header {
   padding-top: 24px;
   padding-bottom: 24px;
-  border-bottom: 1px solid var(--cornflower);
-  border-bottom: 1px solid #e7e9fc
+  border-bottom: 1px solid #e7e9fc;
 }
 
 /* headers 1 2 3 */
@@ -149,12 +148,14 @@ header .container,
 
 .head-three {
   color: var(--dark);
-
+  margin-bottom: 8px;
   font-family: inherit;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  text-align: center;
+
 }
 
 /* lists */
@@ -205,6 +206,7 @@ header .container,
   letter-spacing: 0.02em;
   color: var(--text);
   font-weight: 400;
+  text-align: center;
 }
 
 /* header */
@@ -242,10 +244,16 @@ header .container,
 
 .our-contacts {
   background-color: #F4F4FD;
+  padding: 120px 0;
 }
 
 .our-work {
   padding-bottom: 120px;
+
+}
+
+.team-container {
+  padding: 32px 0;
 }
 
 /* main */
@@ -301,6 +309,7 @@ header .container,
 /* footer */
 .footer {
   background-color: var(--dark);
+  padding: 100px 0;
 
 }
 
@@ -317,4 +326,10 @@ a {
   letter-spacing: 0.04em;
   text-decoration: none;
   padding: 24px 0;
+}
+
+.logo link {
+  display: inline-block;
+  margin-bottom: 16px;
+
 }
