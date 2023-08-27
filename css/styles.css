@@ -89,6 +89,10 @@ img {
 
 }
 
+.item {
+  gap: 40px;
+}
+
 header .container,
 .nav,
 .list-menu,
