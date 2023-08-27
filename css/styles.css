@@ -369,3 +369,8 @@ a {
   border: 1px solid #e7e9fc;
   border-top: none;
 }
+
+.list-contacts {
+  display: flex;
+  gap: 40px;
+}
