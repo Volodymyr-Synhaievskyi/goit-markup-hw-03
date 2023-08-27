@@ -121,6 +121,10 @@ header .container,
   max-width: 496px;
 }
 
+.who-we-are {
+  padding: 120px 0;
+}
+
 .head-two {
   color: var(--dark);
 
@@ -263,6 +267,7 @@ header .container,
   min-width: 169px;
   height: 56px;
   border: none;
+  border-radius: 4px;
 }
 
 .studio-button:hover,
