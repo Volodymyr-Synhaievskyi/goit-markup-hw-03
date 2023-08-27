@@ -308,15 +308,10 @@ header .container,
 .portfolio-button:focus {
   color: var(--white);
   background-color: var(--pressed-state);
-}
-
-.portfolio-button:hover {
   border: 1px solid transparent;
 }
 
-.portfolio-button:focus {
-  border: 1px solid transparent;
-}
+
 
 /* footer */
 .footer {
@@ -357,4 +352,12 @@ a {
 .portfolio {
   padding-top: 96px;
   padding-bottom: 120px;
+}
+
+.portfolio-item {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+
 }
