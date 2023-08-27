@@ -299,12 +299,23 @@ header .container,
   color: var(--primary-brand);
   background-color: var(--light);
   cursor: pointer;
+  padding: 12px 24px;
+  border: 1px solid var(--acsent);
+  border-radius: 4px;
 }
 
 .portfolio-button:hover,
 .portfolio-button:focus {
   color: var(--white);
   background-color: var(--pressed-state);
+}
+
+.portfolio-button:hover {
+  border: 1px solid transparent;
+}
+
+.portfolio-button:focus {
+  border: 1px solid transparent;
 }
 
 /* footer */
