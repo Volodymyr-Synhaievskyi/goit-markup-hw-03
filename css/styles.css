@@ -166,7 +166,7 @@ header .container,
 
 .item-contacts {
   background-color: var(--white);
-
+  border-radius: 0px 0px 4px 4px;
 }
 
 .link {
@@ -332,4 +332,8 @@ a {
   display: inline-block;
   margin-bottom: 16px;
 
+}
+
+.item {
+  width: calc((100% - 72px) / 4);
 }
