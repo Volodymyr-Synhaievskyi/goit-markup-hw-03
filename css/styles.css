@@ -160,7 +160,7 @@ header .container,
 /* lists */
 .list {
   list-style: none;
-  gap: 24px;
+  gap: 24px
 }
 
 .item-contacts {
